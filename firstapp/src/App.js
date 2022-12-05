@@ -9,7 +9,7 @@ function App() {
       <h1>Hello Worlds!</h1>    
       <p>Welcome to our first React App</p>
       <img src={require('./logo.svg').default} alt ='logo'/>
-      <img src={require('./cat.jpeg').default} alt='cat'/>
+      <img src={require('./cat.jpeg')} alt='cat'/>
     </React.Fragment>
     );
 }
